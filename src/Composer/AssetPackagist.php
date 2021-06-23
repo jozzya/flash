@@ -86,8 +86,8 @@ final class AssetPackagist {
 
     $package['extra']['installer-types'][] = 'bower-asset';
     $package['extra']['installer-types'][] = 'npm-asset';
-    $package['extra']['installer-paths']['docroot/libraries/{$name}'][] = 'type:bower-asset';
-    $package['extra']['installer-paths']['docroot/libraries/{$name}'][] = 'type:npm-asset';
+    $package['extra']['installer-paths']['web/libraries/{$name}'][] = 'type:bower-asset';
+    $package['extra']['installer-paths']['web/libraries/{$name}'][] = 'type:npm-asset';
 
     $file->write($package);
     $io->write('Successfully updated your root composer.json file. Switch back to your project root and run "composer update".');
