@@ -1,0 +1,6 @@
+{
+    "name": "drupal/flash_install",
+    "type": "drupal-module",
+    "description": "Provides helpful under-the-hood functionality used while installing Flash.",
+    "license": "OGL-3.0"
+}
