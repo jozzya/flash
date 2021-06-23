@@ -2,7 +2,7 @@
     "name": "jozzya/flash",
     "type": "drupal-profile",
     "description": "Flash distribution profile",
-    "license": "GPL-2.0-or-later",
+    "license": "apache-2.0",
     "require": {
         "ext-dom": "*",
         "cweagans/composer-patches": "~1.0",
