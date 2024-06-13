@@ -1,2 +1,2 @@
 # flash_core
-Flash is a base Drupal 9 distribution
+Flash is a base Drupal 10 distribution

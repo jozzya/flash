@@ -1,7 +1,7 @@
 name: Flash core
 type: profile
 description: 'Install base and contrib modules.'
-core_version_requirement: '^8.8 || ^9'
+core_version_requirement: '^10'
 
 langcode: en
 
@@ -34,7 +34,6 @@ install:
   - metatag
   - multiline_config
   - paragraphs
-# Consider installing paragraphs 'helper' modules like paragraphs_library to assist development of components
   - password_policy
   - rabbit_hole
   - replicate
